@@ -1,0 +1,39 @@
+
+img{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.position {
+    position: absolute;
+	margin-left: 165px;
+	margin-top: -412px;
+
+}
+
+.position2 {
+    position: absolute;
+	margin-left: 165px;
+	margin-top: -182px;
+}
+
+
+.position3 {
+    position: absolute;
+	margin-left: 615px;
+	margin-top: -412px;
+}
+
+
+.position4 {
+    position: absolute;
+	margin-left: 615px;
+	margin-top: -182px;
+}
+
+
+.position5 {
+    position: absolute;
+	margin-left: 1055px;
+	margin-top: -412px;
+}

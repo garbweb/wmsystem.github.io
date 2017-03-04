@@ -1,0 +1,86 @@
+body
+{
+	background: #C0EBCB;
+	font-family: Arial,Verdania, Sans-serif;
+}
+
+.container {
+    padding: 15px 15px 15px 15px;
+    width: 400px;
+    height: 200px;
+}
+.container1{
+	position: absolute;
+	left: 450px;
+    top: 67px;
+    padding: 15px 15px 15px 15px;
+    width: 400px;
+    height: 200px;
+}
+.container2{
+	position: absolute;
+	left: 450px;
+    top: 297px;
+    padding: 15px 15px 15px 15px;
+    width: 400px;
+    height: 200px;
+}
+.container3{
+	position: absolute;
+	left: 900px;
+    top: 67px;;
+    padding: 15px 15px 15px 15px;
+    width: 400px;
+    height: 200px;
+}
+.container4{
+	position: absolute;
+	left: 950px;
+    top: 303px;;
+    padding: 15px 15px 15px 15px;
+    width: 350px;
+    height: 150px;
+	border: 1px solid #73AD21 ;
+}
+
+p.small {
+    line-height: 5px;
+}
+
+.LClabel {
+    position: absolute;
+	left: 200px;
+    top: 15px;
+}
+.BiTime{
+    position: absolute;
+	left: 200px;
+    top: 54px;
+}
+.NbTime{
+    position: absolute;
+	left: 200px;
+    top: 73px;
+}
+
+.HaTime{
+    position: absolute;
+	left: 200px;
+    top: 92px;
+}
+
+.MeTime{
+    position: absolute;
+	left: 200px;
+    top: 111px;
+}
+
+.ReTime{
+    position: absolute;
+	left: 200px;
+    top: 130px;
+}
+
+
+
+

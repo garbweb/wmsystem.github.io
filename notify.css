@@ -1,0 +1,312 @@
+/* Popup container - can be anything you want */
+.popup1 {
+    position: absolute;
+	margin-left: 200px;
+	margin-top: -350px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup1 .popuptext1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    bottom: 125%;
+    left: 50%;
+   
+}
+
+/* Popup arrow */
+.popup1 .popuptext1::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 0px;
+	margin-top: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup1 .show1 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+
+/* Popup container - can be anything you want */
+.popup2 {
+    position: absolute;
+	margin-left: 200px;
+	margin-top: -120px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup2 .popuptext2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    bottom: 125%;
+    left: 50%;
+   
+}
+
+/* Popup arrow */
+.popup2 .popuptext2::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 0px;
+	margin-top: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup2 .show2 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Popup container - can be anything you want */
+.popup3 {
+    position: absolute;
+	margin-left: 650px;
+	margin-top: -350px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup3 .popuptext3 {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    bottom: 125%;
+    left: 50%;
+   
+}
+
+/* Popup arrow */
+.popup3 .popuptext3::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 0px;
+	margin-top: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup3 .show3 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+
+/* Popup container - can be anything you want */
+.popup4 {
+    position: absolute;
+	margin-left: 650px;
+	margin-top: -120px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup4 .popuptext4 {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    bottom: 125%;
+    left: 50%;
+   
+}
+
+/* Popup arrow */
+.popup4 .popuptext4::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 0px;
+	margin-top: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup4 .show4 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Popup container - can be anything you want */
+.popup5 {
+    position: absolute;
+	margin-left: 1100px;
+	margin-top: -350px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup5 .popuptext5 {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    bottom: 125%;
+    left: 50%;
+   
+}
+
+/* Popup arrow */
+.popup5 .popuptext5::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 0px;
+	margin-top: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup5 .show5 {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Popup container - can be anything you want */
+.popup6 {
+    position: absolute;
+	margin-left: 420px;
+	margin-top: -470px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup6 .popuptext6 {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    bottom: 125%;
+    left: 50%;
+   
+}
+
+/* Popup arrow */
+.popup6 .popuptext6::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 0px;
+	margin-top: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup6 .show6 {
+    visibility: visible;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}

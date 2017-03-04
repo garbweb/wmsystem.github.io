@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
+<script type="text/javascript" src="jquery-3.1.1.js"></script>
+<script type="text/javascript" src="Chart.js"></script>
+<script type="text/javascript" src="Js/main.js"></script>
+<script type="text/javascript" src="Js/state.js"></script>
+<script type="text/javascript" src="Js/time.js"></script>
+<script type="text/javascript" src="Js/draw.js"></script>
+<script type="text/javascript" src="Js/notify.js"></script>
+<script type="text/javascript" src="Js/notifstate.js"></script>
+<script type="text/javascript" src="Js/lastcollection.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDRfsBqMvrfNnqQBA6cTNatY8UjT3Ovwew",
+    authDomain: "garbweb-4e670.firebaseapp.com",
+    databaseURL: "https://garbweb-4e670.firebaseio.com",
+    storageBucket: "garbweb-4e670.appspot.com",
+    messagingSenderId: "134339852769"
+  };
+  firebase.initializeApp(config);
+</script>
+<link href="core.css" rel="stylesheet" type="text/css" />
+<link href="notify.css" rel="stylesheet" type="text/css" />
+<link href="bin.css" rel="stylesheet" type="text/css" />
+<link href="cover.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.png" type="image/png"/>
+<title>Welcome To WMSystem</title>
+<p align="left" class="p.small"><font face="Comic sans MS" size="5" color="rgba(153,255,51,1)" >Waste Monitoring System</font>
+<body>
+
+<div class="container">
+  <div id="1">
+    <canvas id="myChart1" ></canvas>
+  </div> 
+</div>
+
+<div class="container">
+  <div id="2">
+    <canvas id="myChart2"></canvas>
+  </div>
+</div>
+
+<div class="container1">
+ <div id="3">
+    <canvas id="myChart3"></canvas>
+  </div>
+</div>
+
+<div class="container2">
+ <div id="4">
+    <canvas id="myChart4"></canvas>
+  </div>
+</div>
+
+<div class="container3">
+ <div id="5">
+    <canvas id="myChart5"></canvas>
+  </div>
+</div>
+
+	
+<div class="position" >
+<img src="bin.png" alt="bin" style="width:120px;height:141px;" ></img>
+</div>
+<div class="position2" >
+<img src="bin.png" alt="bin" style="width:120px;height:141px;" ></img>
+</div>
+<div class="position3" >
+<img src="bin.png" alt="bin" style="width:120px;height:141px;" ></img>
+</div>
+<div class="position4" >
+<img src="bin.png" alt="bin" style="width:120px;height:141px;" ></img>
+</div>
+<div class="position5" >
+<img src="bin.png" alt="bin" style="width:120px;height:141px;" ></img>
+</div>
+
+
+
+<div class="container4">
+   <p class="p.small"><font face="Comic sans MS" size="3" color="rgba(153,255,51,1)" >State Box</font>
+   <p class="LClabel"><font face="Comic sans MS" size="3" color="rgba(153,255,51,1)">Last Collected</font></p>
+   <p id="Bitime" class="BiTime">Unavailable </p>
+   <p id="Nbtime" class="NbTime">Unavailable </p>
+   <p id="Hatime" class="HaTime">Unavailable </p>
+   <p id="Metime" class="MeTime">Unavailable </p>
+   <p id="Retime" class="ReTime">Unavailable </p>
+   <p class="p.small">Biodegradable<br>
+   Non-Biodegradable<br>
+   Hazardous<br>
+   Metal<br>
+   Recyclable</p>
+</div>
+
+<div class="popup1" >
+<p class="popuptext1" id="myPopup1">Full</p>
+</div>
+<div class="popup2" >
+<p class="popuptext2" id="myPopup2">Full</p>
+</div>
+<div class="popup3" >
+<p class="popuptext3" id="myPopup3">Full</p>
+</div>
+<div class="popup4" >
+<p class="popuptext4" id="myPopup4">Full</p>
+</div>
+<div class="popup5" >
+<p class="popuptext5" id="myPopup5">Full</p>
+</div>
+
+
+<input type="text" placeholder="Room_Id" id="roomname" required>
+<div class="popup6" >
+<p class="popuptext6" id="myPopup6"></p>
+</div>
+
+</body>
+</html>
