@@ -36,7 +36,7 @@ function updates() {
 	   {
 		   level[2]=38;
 	   }
-	   if(level[4]>38||level[4]<50)
+	   if(level[4]>38||level[5]<50)
 	   {
 		   level[4]=38;
 	   }
