@@ -28,32 +28,32 @@ function updates() {
 			level[cnt++] = lvel;	
 	   });  
 	   
-	   if(level[0]>38||level[1]<50)
+	   if(level[0]>36||level[1]<50)
 	   {
-		   level[0]=38;
+		   level[0]=36;
 	   }
-	   if(level[2]>38||level[3]<50)
+	   if(level[2]>36||level[3]<50)
 	   {
-		   level[2]=38;
+		   level[2]=36;
 	   }
-	   if(level[4]>38||level[5]<50)
+	   if(level[4]>36||level[5]<50)
 	   {
-		   level[4]=38;
+		   level[4]=36;
 	   }
-	   if(level[6]>38||level[7]<50)
+	   if(level[6]>36||level[7]<50)
 	   {
-		   level[6]=38;
+		   level[6]=36;
 	   }
-	   if(level[8]>38||level[9]<50)
+	   if(level[8]>36||level[9]<50)
 	   {
-		   level[8]=38;
+		   level[8]=36;
 	   }
 	   
-	   level[0]=(38-level[0])/0.33;
-	   level[2]=(38-level[2])/0.33;
-	   level[4]=(38-level[4])/0.33;
-	   level[6]=(38-level[6])/0.33;
-	   level[8]=(38-level[8])/0.33;
+	   level[0]=(36-level[0])/0.33;
+	   level[2]=(36-level[2])/0.33;
+	   level[4]=(36-level[4])/0.33;
+	   level[6]=(36-level[6])/0.33;
+	   level[8]=(36-level[8])/0.33;
 	   
 	   lastcollection(level[1],level[3], level[5],level[7],level[9],room);
 	   notifstate(level[0],level[1],level[2],level[3],level[4],level[5],level[6],level[7],level[8],level[9]);
