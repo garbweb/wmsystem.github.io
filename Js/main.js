@@ -27,6 +27,19 @@ function updates() {
 			}
 			level[cnt++] = lvel;	
 	   });  
+            
+	        if(room=="")
+		{
+		document.getElementById("myPopup6").innerHTML = 'Input Room ID';
+                document.getElementById('myPopup6').style.visibility = 'visible';
+		}
+		else if(level[0]==null)
+		{
+		document.getElementById("myPopup6").innerHTML = 'Invalid Room ID';
+                document.getElementById('myPopup6').style.visibility = 'visible';
+		}
+		else
+	        {document.getElementById('myPopup6').style.visibility = 'hidden';}
 	   
 	   if(level[0]>36||level[1]<50)
 	   {
@@ -71,13 +84,6 @@ function updates() {
        draw4(level[6],level[7]);
        draw5(level[8],level[9]);
 	   
-		if(room=="")
-		{
-		document.getElementById("myPopup6").innerHTML = 'Input Room I.d';
-        document.getElementById('myPopup6').style.visibility = 'visible';
-		}
-		else
-	    {document.getElementById('myPopup6').style.visibility = 'hidden';}
 	   
 
 	   });
