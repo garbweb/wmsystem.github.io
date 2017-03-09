@@ -87,7 +87,7 @@ function draw3(val1,val2){
   var myChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Hazardous"],
+    labels: ["Recyclable"],
     datasets: [{
       label: cstate,
       data: [val1],
@@ -167,7 +167,7 @@ function draw5(val1,val2){
   var myChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Recyclable"],
+    labels: ["Hazardous"],
     datasets: [{
       label: cstate,
       data: [val1],
