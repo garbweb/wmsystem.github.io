@@ -49,11 +49,11 @@ function updates() {
 		   level[8]=38;
 	   }
 	   
-	   level[0]=(38-level[0])/0.32;
-	   level[2]=(38-level[2])/0.32;
-	   level[4]=(38-level[4])/0.32;
-	   level[6]=(38-level[6])/0.32;
-	   level[8]=(38-level[8])/0.32;
+	   level[0]=(38-level[0])/0.33;
+	   level[2]=(38-level[2])/0.33;
+	   level[4]=(38-level[4])/0.33;
+	   level[6]=(38-level[6])/0.33;
+	   level[8]=(38-level[8])/0.33;
 	   
 	   lastcollection(level[1],level[3], level[5],level[7],level[9],room);
 	   notifstate(level[0],level[1],level[2],level[3],level[4],level[5],level[6],level[7],level[8],level[9]);
