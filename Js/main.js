@@ -71,7 +71,7 @@ function updates() {
 	   lastcollection(level[1],level[3], level[5],level[7],level[9],room);
 	   notifstate(level[0],level[1],level[2],level[3],level[4],level[5],level[6],level[7],level[8],level[9]);
 	   myFunction(level[0],level[1],level[2],level[3],level[4],level[5],level[6],level[7],level[8],level[9]);
-	   document.getElementById("Bitime").innerHTML = level[1];
+	   document.getElementById("Bitime").innerHTML = level[1]+"grams";
 	   document.getElementById("Nbtime").innerHTML = lastcoll[1];
 	   document.getElementById("Hatime").innerHTML = lastcoll[2];
 	   document.getElementById("Metime").innerHTML = lastcoll[3];
